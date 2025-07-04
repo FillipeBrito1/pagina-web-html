@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+</head>
+<body>
+    <h1 id="inicio">Primeiros Passos Com HTML</h1>
+    <hr>
+    
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#introducao">Introdução ao HTML na Prática</a></li>
+        <li><a href="#formularios">Trabalhando com Formulários em HTML</a></li>
+        <li><a href="#estruturando">Estruturando Seu HTML + Formatações</a></li>
+        <li><a href="#midia">trabalhando com Mídias utilizando HTML</a></li>
+        <li><a href="#tabelas">Criando Tabelas em HTML</a></li>
+        <li><a href="#semantico">Entendendo HTML Semântico</a></li>
+    </ul>
+    <hr>
+    
+    <h2 id="introducao">Introdução ao HTML na Prática</h2>
+    <a href="#inicio"><small>(voltar)</small></a>
+    <p>
+    Nesta primeira aula, <strong>"Introdução ao HTML na Prática"</strong>, o foco foi em como adicionar mais controle e funcionalidades aos elementos de uma página. Aprendi sobre atributos essenciais de tags, como o <mark>id</mark> para criar um identificador único para um elemento, a <mark>class</mark> para agrupar diferentes elementos sob um mesmo estilo ou comportamento, o <mark>style</mark> para aplicar CSS diretamente em uma tag e o <mark>type</mark> para especificar o tipo de um elemento. Além disso, explorei o funcionamento dos links, entendendo como usar <mark>target="_blank"</mark> para abrir um link em uma nova aba e <mark>target="_self"</mark> para abri-lo na mesma página, garantindo uma melhor experiência de navegação para o usuário.
+    </p>
+    <hr>
+    
+    <h2 id="formularios">Trabalhando com Formulários em HTML</h2>
+    <a href="#inicio"><small>(voltar)</small></a>
+    <p>
+    A segunda aula,<strong> "Trabalhando com Formulários em HTML"</strong>, foi focada em como coletar informações do usuário de maneira estruturada. O aprendizado começou com a tag principal <mark>&lt;form&gt;</mark>, entendendo seus atributos cruciais como <mark>method</mark> (para definir como os dados são enviados, via <mark>GET</mark> ou <mark>POST</mark>), <mark>target</mark> para decidir onde a resposta será exibida, e <mark>autocomplete</mark> para controlar o preenchimento automático do navegador. Também vi como usar eventos, como o <mark>onsubmit</mark>, para acionar ações no momento do envio.
+    </p>
+    <p>
+    Explorei a versatilidade da tag <mark>&lt;input&gt;</mark>, descobrindo tipos modernos que vão além do texto simples, como <mark>type="color"</mark> para um seletor de cores, <mark>type="range"</mark> para uma barra de seleção, <mark>type="date"</mark> para um calendário e <mark>type="file"</mark> para permitir o upload de arquivos. Aprendi a diferença fundamental entre <mark>checkbox</mark>, que permite múltiplas seleções, e os <mark>radio buttons</mark>, para escolher uma única opção dentro de um grupo. Para listas de opções, utilizei a tag <mark>&lt;select&gt;</mark> em conjunto com as tags <mark>&lt;option&gt;</mark>, criando menus dropdown. Finalmente, para campos de texto de múltiplas linhas, como caixas de comentários, aprendi a usar a tag <mark>&lt;textarea&gt;</mark>.
+    </p>
+    <hr>
+    
+    <h2 id="estruturando">Estruturando Seu HTML + Formatações</h2>
+    <a href="#inicio"><small>(voltar)</small></a>
+    <p>
+    Na terceira aula, <strong>"Estruturando seu HTML + Formatações"</strong>, aprofundei meus conhecimentos em como organizar o conteúdo e aplicar ênfase visual. Na parte de formatação de textos, aprendi a utilizar tags como <mark>&lt;b&gt;</mark> para deixar o texto em negrito, <mark>&lt;i&gt;</mark> para itálico, <mark>&lt;u&gt;</mark> para sublinhado e a própria tag <mark>&lt;mark&gt;</mark> para criar um destaque, como um marca-texto.
+    </p>
+    <p>
+    Para a estrutura da página, entendi o papel das tags <mark>&lt;div&gt;</mark>, um container genérico em bloco usado para agrupar seções maiores de conteúdo, e <mark>&lt;span&gt;</mark>, um container em linha para manipular pequenos trechos de texto sem quebrar a linha. Também vi como a tag <mark>&lt;fieldset&gt;</mark> é útil para agrupar campos relacionados dentro de um formulário, melhorando a organização. Por fim, aprendi a usar a tag <mark>&lt;iframe&gt;</mark>, que possibilita incorporar uma outra página da web diretamente dentro do meu documento atual.
+    </p>
+    <hr>
+
+    <h2 id="midia">Trabalhando com Mídias utilizando HTML</h2>
+    <a href="#inicio"><small>(voltar)</small></a>
+    <p>
+    Na quarta aula, <strong>"Trabalhando com Mídias utilizando HTML"</strong>, o foco foi em como enriquecer a página com elementos multimídia. Comecei pela tag <mark>&lt;img&gt;</mark>, aprendendo a inserir imagens e a importância de seus atributos: o <mark>title</mark>, que exibe um texto de ajuda ao passar o mouse por cima, e principalmente o <mark>alt</mark>, que fornece um texto alternativo essencial para a acessibilidade e para quando a imagem não pode ser carregada.
+    </p>
+    <p>
+    Em seguida, explorei as tags de áudio e vídeo. Com a tag <mark>&lt;audio&gt;</mark>, entendi como exibir os controles de reprodução com o atributo <mark>controls</mark> e como iniciar o áudio automaticamente com <mark>autoplay</mark>. Vi também que é uma boa prática usar a tag filha <mark>&lt;source&gt;</mark> para oferecer diferentes formatos do mesmo áudio, garantindo compatibilidade com mais navegadores. Aprendi que a tag <mark>&lt;video&gt;</mark> funciona de maneira muito similar para incorporar vídeos. Para tornar as mídias ainda mais acessíveis, utilizei a tag <mark>&lt;track&gt;</mark>, que serve para adicionar legendas, e seu atributo <mark>srclang</mark> para especificar o idioma do arquivo de legenda.
+    </p>
+    <hr>
+
+    <h2 id="tabelas">Criando Tabelas com HTML</h2>
+    <a href="#inicio"><small>(voltar)</small></a>
+    <p>
+    Na quinta aula, <strong>"Criando Tabelas com HTML"</strong>, aprendi a estruturar dados em formato de linhas e colunas. A base de tudo é a tag <mark>&lt;table&gt;</mark>, que serve como o contêiner principal. Dentro dela, cada linha é definida pela tag <mark>&lt;tr&gt;</mark> (table row). As células são criadas com <mark>&lt;td&gt;</mark> (table data) para dados comuns e com <mark>&lt;th&gt;</mark> (table header) para as células de cabeçalho, que dão título às colunas.
+    </p>
+    <p>
+    Para uma organização mais semântica e robusta, vi como agrupar as seções da tabela com as tags <mark>&lt;thead&gt;</mark> para o cabeçalho, <mark>&lt;tbody&gt;</mark> para o corpo principal de dados, e <mark>&lt;tfoot&gt;</mark> para o rodapé. Para dar um título oficial à tabela, utilizei a tag <mark>&lt;caption&gt;</mark>. Também explorei atributos da tag <mark>&lt;table&gt;</mark> para estilização, como <mark>border</mark>, <mark>width</-mark>, <mark>align="center"</mark>, <mark>cellspacing</mark> (espaço entre células) e <mark>cellpadding</mark> (espaço dentro das células). Por fim, aprendi sobre o atributo <mark>summary</mark>, importante para a acessibilidade, pois descreve o conteúdo da tabela para leitores de tela.
+    </p>
+    <hr>
+
+    <h2 id="semantico">Entendendo HTML Semântico</h2>
+    <a href="#inicio"><small>(voltar)</small></a>
+    <p>
+    Na sexta aula, <strong>"Entendendo HTML Semântico"</strong>, o foco foi em usar tags que dão significado e estrutura ao conteúdo, o que é fundamental para acessibilidade e para tecnologias como o <mark>web scraping</mark>. 
+    Entendi como um <mark>crawler</mark> (robô de busca) navega pela página e como uma estrutura semântica clara facilita essa leitura e melhora o ranqueamento nos buscadores.
+    </p>
+    <p>
+    Aprendi a montar o esqueleto de uma página moderna usando as tags de layout: <mark>&lt;header&gt;</mark> para o cabeçalho, <mark>&lt;nav&gt;</mark> para a área de navegação principal, <mark>&lt;main&gt;</mark> para abrigar o conteúdo central e único, <mark>&lt;aside&gt;</mark> para conteúdos laterais (como uma sidebar), e <mark>&lt;footer&gt;</mark> para o rodapé. Para agrupar conteúdos relacionados dentro do corpo principal, vi a utilidade da tag <mark>&lt;section&gt;</mark> para criar seções temáticas e da <mark>&lt;article&gt;</mark> para conteúdos independentes e completos, como um post de blog.
+    </p>
+    <p>
+    Para conteúdos mais específicos, aprendi a diferenciar a tag <mark>&lt;blockquote&gt;</mark>, para formatar um bloco de citação longa, da tag <mark>&lt;q&gt;</mark>, para citações curtas inseridas no meio de um parágrafo. Por fim, explorei como associar mídias, como imagens e diagramas, a uma legenda, usando o conjunto das tags <mark>&lt;figure&gt;</mark> (para a mídia) e <mark>&lt;figcaption&gt;</mark> (para a legenda). Também vi o poder da tag <mark>&lt;picture&gt;</mark>, que permite carregar diferentes imagens de acordo com o tamanho da tela, otimizando a experiência do usuário.
+    </p>
+</body>
+</html>
